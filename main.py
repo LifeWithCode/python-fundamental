@@ -8,4 +8,4 @@ try:
     if r.status_code == 200:
         print(r.text)
 except Exception as e:
-    print('Ada error', e)
+    print('Ada err or', e)
